@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoLigados</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f9f4;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      color: #c6ff00; /* nova cor do título */
+      text-shadow: 1px 1px 2px #1b5e20;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .banner {
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .banner h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      color: #a5d6a7; /* verde claro */
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+    .dicas, .acoes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #388e3c;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EcoLigados</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#acoes">Ações</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Juntos por uma comunidade sustentável</h2>
+    <a class="btn" href="https://instagram.com/ecoligados" target="_blank">Siga no Instagram</a>
+  </section>
+
+  <section class="section" id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>O EcoLigados é um projeto social online que nasceu com o propósito de conectar pessoas em torno da sustentabilidade. Alinhado com os Objetivos de Desenvolvimento Sustentável (ODS), queremos mostrar que pequenas atitudes fazem grande diferença.</p>
+  </section>
+
+  <section class="section" id="acoes">
+    <h2>Ações e Campanhas</h2>
+    <div class="acoes">
+      <div class="card">
+        <h3>Desafios Sustentáveis</h3>
+        <p>Participe dos nossos desafios semanais e descubra formas simples de viver com mais consciência ambiental.</p>
+      </div>
+      <div class="card">
+        <h3>Reaproveitamento Criativo</h3>
+        <p>Inspire-se com ideias de reaproveitamento de materiais do dia a dia.</p>
+      </div>
+      <div class="card">
+        <h3>Jardins Virtuais</h3>
+        <p>Veja como transformar pequenos espaços em hortas e jardins, mesmo dentro de casa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="dicas">
+    <h2>Dicas Sustentáveis</h2>
+    <div class="dicas">
+      <div class="card">
+        <h3>Reduza o Plástico</h3>
+        <p>Leve sempre sua ecobag e prefira produtos com menos embalagens.</p>
+      </div>
+      <div class="card">
+        <h3>Horta com Garrafa Pet</h3>
+        <p>Aprenda a cultivar temperos e hortaliças com materiais recicláveis.</p>
+      </div>
+      <div class="card">
+        <h3>Composteira Caseira</h3>
+        <p>Dê um destino útil aos resíduos orgânicos e crie seu próprio adubo natural.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Fale com a gente</h2>
+    <p>Quer contribuir com o projeto ou mandar uma sugestão? Nos mande uma mensagem pelo Instagram ou e-mail!</p>
+    <p>📩 ecoligados.projeto@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoLigados – Uma comunidade sustentável.</p>
+  </footer>
+</body>
+</html>
